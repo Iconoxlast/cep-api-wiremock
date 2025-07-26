@@ -1,0 +1,13 @@
+{
+  "priority": 10,
+  "request": {
+    "method": "GET",
+    "urlPattern": "/cep/.*"
+  },
+  "response": {
+    "status": 404,
+    "jsonBody": {
+      "erro": "CEP inválido"
+    }
+  }
+}
