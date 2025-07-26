@@ -3,6 +3,6 @@ services:
   wiremock:
     build:
       context: .
-      dockerfile: Dockerfile.wiremock
+      dockerfile: Dockerfile
     ports:
       - "8081:8080"

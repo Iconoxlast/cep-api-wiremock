@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:21-slim
 WORKDIR /home/wiremock
 RUN apt-get update && apt-get install -y wget
 RUN wget https://repo1.maven.org/maven2/com/github/tomakehurst/wiremock-standalone/3.3.1/wiremock-standalone-3.3.1.jar -O wiremock.jar
