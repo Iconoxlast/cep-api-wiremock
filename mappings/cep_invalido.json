@@ -7,7 +7,7 @@
   "response": {
     "status": 404,
     "jsonBody": {
-      "erro": "CEP inválido"
+      "erro": "CEP inválido ou não encontrado"
     }
   }
 }
