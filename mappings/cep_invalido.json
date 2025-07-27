@@ -6,6 +6,9 @@
   },
   "response": {
     "status": 404,
+    "headers": {
+          "Content-Type": "application/json; charset=UTF-8"
+         },
     "jsonBody": {
       "erro": "CEP inválido ou não encontrado"
     }
